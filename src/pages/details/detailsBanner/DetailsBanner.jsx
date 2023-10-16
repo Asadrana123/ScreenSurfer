@@ -10,7 +10,7 @@ import useFetch from "../../../hooks/useFetch";
 import CircleRating from "../../../components/circleRating/CircleRating";
 import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
-import { PlayIcon } from "../../home/Playicon";
+import { PlayIcon } from "../../home/PlayIcon";
 const DetailsBanner = ({ video, crew }) => {
     const [show, setShow] = useState(false);
     const [videoId, setVideoId] = useState(null);
