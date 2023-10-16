@@ -1,5 +1,5 @@
 import React from 'react'
-import DetailsBanner from './detailsBanner.jsx/DetailsBanner'
+import DetailsBanner from './detailsBanner/DetailsBanner'
 import { useParams } from 'react-router-dom';
 import useFetch from '../../hooks/useFetch';
 import Cast from './cast/Cast';
